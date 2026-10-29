@@ -7,3 +7,4 @@ Python learning: exercises and small projects.
 ## Exercises
 - [dicts](exercises/dicts/)
 - [lists](exercises/lists/)
+- [functions](exercises/functions/)
