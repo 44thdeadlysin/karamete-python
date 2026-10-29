@@ -16,7 +16,6 @@ assert remove_duplicate('potion potion potion') == (['potion'],2)
 assert remove_duplicate('!!! sword') == (['sword'], 0)
 assert remove_duplicate('potion Potion sword') == (['potion', 'sword'],1)
 assert remove_duplicate('') == ([], 0)
-
 text = input('Input your items: ')
 words, repeat_count = remove_duplicate(text)
 print('Unique items: ' + ', '.join(words))
