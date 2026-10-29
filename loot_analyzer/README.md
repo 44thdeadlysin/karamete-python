@@ -13,7 +13,7 @@ Enter your 'loot' and get: its total number, the number of different items, and 
 3. Run the following command:
 
    ```bash
-   python loot_analyzer.py
+   python loot_analyzer/loot_analyzer.py
    ```
 
 4. Enter item names separated by spaces.
