@@ -12,7 +12,7 @@ Enter your scores and get: best, worst, average, top three of them and median.
 3. Run the following command:
 
    ```bash
-   python score_nalyst/score_analyst.py
+   python score_analyst/score_analyst.py
    ```
 
 4. Enter numbers separated by spaces.
