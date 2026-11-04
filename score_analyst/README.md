@@ -1,11 +1,5 @@
-# karamete - python
-py learning here
-score_analyst.py:
 # SCORE ANALYST
 Enter your scores and get: best, worst, average, top three of them and median.
-## Limitations
-- Marks must be whole numbers separated by spaces.
-- Invalid input (letters, decimals, commas) is not handled yet and will raise an error.
 ## Features:
 1. Calculates best mark
 2. Calculates worst mark
@@ -18,7 +12,7 @@ Enter your scores and get: best, worst, average, top three of them and median.
 3. Run the following command:
 
    ```bash
-   python score_nalyst/score_nalyst.py
+   python score_nalyst/score_analyst.py
    ```
 
 4. Enter numbers separated by spaces.
@@ -26,10 +20,13 @@ Enter your scores and get: best, worst, average, top three of them and median.
 ## Example
 
 ```text
-Input your marks: 1 2 3 4 5
-Best mark: 5
-Worst mark: 1
-Average mark: 3.0
-Top three: [5, 4, 3]
-Median: 3
+Input your marks: 70 80 55 60 90
+Best mark: 90
+Worst mark: 55
+Average mark: 71.0
+Top three: [90, 80, 70]
+Median: 70
 ```
+## Limitations
+- Marks must be whole numbers separated by spaces.
+- Invalid input (letters, decimals, commas) is not handled yet and will raise an error.
